@@ -95,8 +95,6 @@ button{
     margin-bottom: 30px;
     padding: 12px;
   }
-
-
   
   .img3{
     margin-top: 50px;
@@ -113,20 +111,20 @@ button{
   }
 
 
-  .img3{
+  .img4{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
   }
 
   .mod{
     display: grid;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-right: 100px;
-    
   }
 
   .chair{
-    margin-right: 100px;
+    margin-right: 150px;
   }
 
   .container{
