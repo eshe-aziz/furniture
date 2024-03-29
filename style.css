@@ -1,0 +1,423 @@
+body{
+  font-family: 'Libre Baskerville', serif;
+}
+
+p{
+  color: #AFAEB6;
+}
+
+.logo{
+  padding-top: 30px;
+  background-color: #272320;
+  color: #B17030;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 450px;
+    margin-right: 450px;
+    overflow: hidden;
+    background-color: #272320;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+  }
+
+  .nav{
+    display: flex;
+    gap: 20px;
+    padding-left:50px;
+    padding-right: 200px;
+    padding-top: 40px;
+    float: right;
+    color: rgb(255, 255, 255);
+    }
+
+.p-one{
+    display: flex;
+    justify-content: center;
+}
+
+.one{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hech{
+    font-size: 50px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+}
+
+.p-two{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.p-three{
+    text-align: center;
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+}
+
+.lea{
+    margin-right: 100px;
+    display: grid;
+}
+
+button{
+    width: 150px;
+    background-color: #B17030;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 30px;
+    padding: 12px;
+  }
+
+
+  
+  .img3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bed{
+    display: grid;
+  }
+
+  .bedd{
+    padding-right: 20px;
+  }
+
+
+  .img3{
+    display: flex;
+    justify-content: center;
+  }
+
+  .mod{
+    display: grid;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+  }
+
+  .chair{
+    margin-right: 100px;
+  }
+
+  .container{
+    background-color: #D5C2B1;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .test{
+    text-align: center;
+    padding-top: 80px;
+  }
+
+  .testi{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 100px;
+
+  }
+
+  .gun{
+    background-color: rgb(224, 221, 221);
+  padding: 50px 50px;
+  }
+
+  .gun1{
+    background-color: rgb(224, 221, 221);
+    padding: 30px 30px;
+  }
+
+  .gun2{
+    background-color: rgb(224, 221, 221);
+    padding: 50px 50px;
+  }
+
+  .blog{
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .tips{
+    display: grid;
+  }
+
+  .main{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    background-color: #272320;
+    color: #ffffff;
+  }
+
+  .container1{
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .text-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+input{
+  width: 250px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 12px;
+}
+
+.star{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px){
+  .logo{
+    padding-top: 30px;
+    background-color: #272320;
+    color: #B17030;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin-left: 450px;
+      margin-right: 450px;
+      overflow: hidden;
+      background-color: #272320;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: flex;
+      justify-content: space-evenly;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 40px 16px;
+      text-decoration: none;
+    }
+  
+    .nav{
+      display: flex;
+      gap: 20px;
+      padding-left:50px;
+      padding-right: 200px;
+      padding-top: 40px;
+      float: right;
+      color: rgb(255, 255, 255);
+      }
+  
+  .p-one{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .one{
+      text-align: center;
+      margin-top: 100px;
+  }
+  
+  .hech{
+      font-size: 50px;
+  }
+  
+  .img{
+      margin: auto;
+      width: 40px;
+  }
+  
+  .img1{
+      display: flex;
+      justify-content: center;
+  }
+
+  
+  .p-three{
+      text-align: center;
+  }
+  
+  .img2{
+    width: 30px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .lea{
+      margin-right: 100px;
+      display: grid;
+  }
+  
+  button{
+      width: 150px;
+      background-color: #B17030;
+      color: #ffffff;
+      border: none;
+      margin-bottom: 30px;
+      padding: 12px;
+    }
+  
+  
+    
+    .img3{
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .bed{
+      display: grid;
+    }
+  
+    .bedd{
+      padding-right: 20px;
+    }
+  
+  
+    .img3{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .mod{
+      display: grid;
+      margin-left: 100px;
+      margin-right: 100px;
+      
+    }
+  
+    .chair{
+      margin-right: 100px;
+    }
+  
+    .container{
+      background-color: #D5C2B1;
+      margin-top: 100px;
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+  
+    .test{
+      text-align: center;
+      padding-top: 80px;
+    }
+  
+    .testi{
+     display: flex;
+     justify-content: center;
+     padding-bottom: 100px;
+  
+    }
+  
+    .gun{
+      background-color: rgb(224, 221, 221);
+    padding: 50px 50px;
+    }
+  
+    .gun1{
+      background-color: rgb(224, 221, 221);
+      padding: 30px 30px;
+    }
+  
+    .gun2{
+      background-color: rgb(224, 221, 221);
+      padding: 50px 50px;
+    }
+  
+    .blog{
+      text-align: center;
+      margin-top: 100px;
+    }
+  
+    .tips{
+      display: grid;
+    }
+  
+    .main{
+      margin-top: 70px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .footer{
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 70px;
+      background-color: #272320;
+      color: #ffffff;
+    }
+  
+    .container1{
+      margin-top: 70px;
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+  
+    .text-container {
+      position: absolute;
+      color: rgb(255, 255, 255);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0.5rem;
+      text-align: center;
+      font-size: 16px;
+  }
+  
+  input{
+    width: 250px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 12px;
+  }
+  
+  .star{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
